@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F27A69313B7364200AC4EB5 /* branch-1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F27A69113B7364200AC4EB5 /* branch-1.m */; };
+		6F27A69413B7364200AC4EB5 /* branch-1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F27A69213B7364200AC4EB5 /* branch-1.xib */; };
 		6FB4134C13B7342100265AE3 /* newTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4134A13B7342100265AE3 /* newTableViewController.m */; };
 		6FB4134D13B7342100265AE3 /* newTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FB4134B13B7342100265AE3 /* newTableViewController.xib */; };
 		6FBD9DFF13B72CA200C5014A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBD9DFE13B72CA200C5014A /* UIKit.framework */; };
@@ -23,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F27A69013B7364200AC4EB5 /* branch-1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "branch-1.h"; path = "branch-1/branch-1.h"; sourceTree = "<group>"; };
+		6F27A69113B7364200AC4EB5 /* branch-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "branch-1.m"; path = "branch-1/branch-1.m"; sourceTree = "<group>"; };
+		6F27A69213B7364200AC4EB5 /* branch-1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "branch-1.xib"; path = "branch-1/branch-1.xib"; sourceTree = "<group>"; };
 		6FB4134913B7342100265AE3 /* newTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newTableViewController.h; path = newController/newTableViewController.h; sourceTree = "<group>"; };
 		6FB4134A13B7342100265AE3 /* newTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newTableViewController.m; path = newController/newTableViewController.m; sourceTree = "<group>"; };
 		6FB4134B13B7342100265AE3 /* newTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = newTableViewController.xib; path = newController/newTableViewController.xib; sourceTree = "<group>"; };
@@ -59,6 +64,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F27A69613B7364700AC4EB5 /* Branch-1 */ = {
+			isa = PBXGroup;
+			children = (
+				6F27A69013B7364200AC4EB5 /* branch-1.h */,
+				6F27A69113B7364200AC4EB5 /* branch-1.m */,
+				6F27A69213B7364200AC4EB5 /* branch-1.xib */,
+			);
+			name = "Branch-1";
+			sourceTree = "<group>";
+		};
 		6FB4134713B733E700265AE3 /* Test */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +124,7 @@
 				6FBD9E1B13B72CA200C5014A /* RootViewController.xib */,
 				6FBD9E1213B72CA200C5014A /* testGit.xcdatamodeld */,
 				6FBD9E0713B72CA200C5014A /* Supporting Files */,
+				6F27A69613B7364700AC4EB5 /* Branch-1 */,
 			);
 			path = testGit;
 			sourceTree = "<group>";
@@ -178,6 +194,7 @@
 				6FBD9E1713B72CA200C5014A /* MainWindow.xib in Resources */,
 				6FBD9E1D13B72CA200C5014A /* RootViewController.xib in Resources */,
 				6FB4134D13B7342100265AE3 /* newTableViewController.xib in Resources */,
+				6F27A69413B7364200AC4EB5 /* branch-1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +210,7 @@
 				6FBD9E1413B72CA200C5014A /* testGit.xcdatamodeld in Sources */,
 				6FBD9E1A13B72CA200C5014A /* RootViewController.m in Sources */,
 				6FB4134C13B7342100265AE3 /* newTableViewController.m in Sources */,
+				6F27A69313B7364200AC4EB5 /* branch-1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
