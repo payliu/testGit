@@ -12,6 +12,10 @@
 
 @interface RootViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
 
+    
+    
+    
+    
 }
 
 @property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
